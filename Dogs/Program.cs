@@ -6,6 +6,9 @@ namespace Dogs
     {
         static void Main(string[] args)
         {
+            Dog.Bark();
+            Dog.AverageLife = 20;
+
             Dog dog1 = new Dog("Sharo", "Pitbull", 3); // with constructor
             //{
             //    Name = "Sharo",

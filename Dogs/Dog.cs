@@ -23,11 +23,18 @@ namespace Dogs
 
         public int Age { get; set; }
 
+        public static int AverageLife { get; set; }
+
         public void SayHi()
         {
             Console.WriteLine("Hey from dog!");
             Console.WriteLine($"My name is {Name} Breed: {Breed}");
             Console.WriteLine("Bye");
+        }
+
+        public static void Bark()
+        {
+            Console.WriteLine("Bark");
         }
     }
 }
